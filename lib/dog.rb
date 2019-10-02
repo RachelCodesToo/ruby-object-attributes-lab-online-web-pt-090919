@@ -1,12 +1,11 @@
 require 'pry'
 class Dog
   
-  def initialize (name, breed)
-    @name= name 
-    @breed= breed
+  def initialize (name)
+    @name= name
   end
   
-  def name= (name, breed)
+  def name= (name)
     @name= name 
     @breed= breed 
   end 
