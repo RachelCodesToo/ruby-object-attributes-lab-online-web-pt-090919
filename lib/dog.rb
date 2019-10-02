@@ -1,7 +1,7 @@
 require 'pry'
 class Dog
   
-  def initialize (name)
+  def name  
     @name= name
   end
   
@@ -10,7 +10,7 @@ class Dog
   end 
   
   def name 
-    "#{@name}"
+    name
   end 
 end 
 
