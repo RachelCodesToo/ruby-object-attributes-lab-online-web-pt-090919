@@ -6,17 +6,15 @@ class Dog
   end
   
   def name= (name)
-    @name= name 
-    @breed= breed 
+    @name= name
   end 
   
   def name 
     "#{@name}"
-    binding.pry
 end 
 
 fido=Dog.new 
 fido.name= "Fido"
 
-snoopy=Dog.new 
-snoopy.breed= "Beagle"
+#snoopy=Dog.new 
+#snoopy.breed= "Beagle"
